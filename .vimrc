@@ -42,8 +42,9 @@ set expandtab
 set tabstop=2
 " 行頭でのTab文字の表示幅
 set shiftwidth=2
-
-
+"gitgutter----------------------------------------
+nnoremap <silent> ,gg :<C-u>GitGutterToggle<CR>
+nnoremap <silent> ,gh :<C-u>GitGutterLineHighlightsToggle<CR>
 "airline------------------------------------------- 
 "タブの有効
 let g:airline#extensions#tabline#enabled = 1
