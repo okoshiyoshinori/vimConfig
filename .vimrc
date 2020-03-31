@@ -1,0 +1,1 @@
+/Users/ookoshiyoshinori/.vimrc
