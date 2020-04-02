@@ -13,6 +13,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
 Plug 'simeji/winresizer'
+Plug 'rust-lang/rust.vim'
 call plug#end()
 set linespace=3
 set background=dark
@@ -36,6 +37,7 @@ set wildmenu
 set history=5000
 nnoremap j gj
 nnoremap k gk
+let g:rustfmt_autosave = 1
 set list listchars=tab:\▸\-
 " Tab文字を半角スペースにする
 set expandtab
